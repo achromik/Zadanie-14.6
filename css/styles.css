@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+    min-height: 100vh;
+    font-size: 18px;
+}
+#app > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+
+.btn {
+    font-size: 20px
+}
+
+.counter {
+    margin: 20px;
+}
+
+#info {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, .5);
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.noHover{
+    pointer-events: none;
+    cursor: none;
+}
